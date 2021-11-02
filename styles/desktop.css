@@ -1,0 +1,251 @@
+@media (max-width: 1440px) {
+    .view-one {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--white);
+    }
+    /* Navbar styling */
+    nav{
+        height: 10%;
+        width: 80%;
+        position: relative;
+        left: calc(20vw/2);
+        display: flex;
+        border-bottom: 0.01rem solid var(--black);
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--white);
+    }
+    nav h1{
+        font-size: var(--font-size-h1);
+        font-family: var(--font-family-2);
+        font-weight: var(--font-weight-bold);
+    }
+    nav ul{
+        list-style: none;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-weight: var(--font-weight-regular);
+    }
+    .nav-icons{
+        height: 100%;
+        width: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .shopping-icon{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .avatar{
+        height: 3rem;
+        width: 3rem;
+    }
+    .tabs {
+        width:100%;
+        height:100%;
+      }
+      .tabs .tab-header {
+        height:100%;
+        width: 100%;
+        display:flex;
+        align-items:center;
+      }
+      .tabs .tab-header > div {
+        width:calc(100% / 4);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:var(--grayish-blue);
+        font-size: var(--font-size-links);
+        font-weight:var(--font-weight-bold);
+        cursor:pointer;
+        outline:none;
+      }
+      .tabs .tab-header > div.active {
+        color:var(--orange);
+      }
+      .tabs .tab-indicator {
+        position:relative;
+        width:calc(100% / 4);
+        height:5px;
+        background:var(--orange);
+        left:0px;
+        border-radius:5px;
+        transition:all 200ms ease-in-out;
+      }
+
+      /* Body styling */
+      .body{
+          height:90% ;
+          width: 100vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .center-view{
+          height: 95%;
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+      }
+      .center-view-one{
+          height: 100%;
+          flex: 1;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+      }
+      .img-wrapper{
+          height: 73%;
+          width: 100%;
+      }
+      .img-wrapper img{
+          height: 100%;
+          width: 100%;
+          border-radius: var(--border-radius);
+          cursor: pointer;
+      }
+      .img-con{
+          height: 25%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+          gap: var(--gap);
+          border-radius: var(--border-radius);
+      }
+      .small-imgs{
+          cursor: pointer;
+          height: 85%;
+          border-radius: var(--border-radius);
+          width: 25%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .small-imgs img{
+          height: 100%;
+          width: 100%;
+          border-radius: var(--border-radius);
+          object-fit: cover;
+      }
+      .center-view-two{
+        height: 100%;
+        flex: 1;
+        padding: 5rem;
+    }
+    .center-view-two .first-text{
+        color: var(--orange);
+        font-weight: var(--font-weight-bold);
+    }
+    .center-view-two .main-heading{
+        margin-top: 1rem;
+        font-size: 3rem;
+        color: var(--very-dark-blue);
+    }
+    .center-view-two .p-body{
+        margin-top: 1rem;
+        color: var(--grayish-blue);
+        font-weight: var(--font-weight-bold);
+    }
+    .center-view-two .price{
+        margin-top: 1rem;
+    }
+    .center-view-two .price .inner-price{
+        width: 11rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .center-view-two .price .inner-price h1{
+        font-size: var(--font-size-h1);
+        color: var(--very-dark-blue);
+    }
+    .center-view-two .price .inner-price div{
+        height: 2rem;
+        width: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.4rem;
+        font-weight: var(--font-weight-bold);
+        background-color: var(--pale-orange);
+        color: var(--orange);
+    }
+    .center-view-two .price h6{
+        text-decoration: line-through;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        color: var(--grayish-blue);
+    }
+    .center-view-two .buttons{
+        margin-top: 1rem;
+        height: 15%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-direction: row;
+    }
+    .center-view-two .buttons .adder{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: var(--border-radius);
+        background-color: var(--light-grayish-blue);
+    }
+    .center-view-two .buttons .adder .add{
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(100%/3);
+    }
+    .center-view-two .buttons .adder .minus{
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(100%/3);
+    }
+    .center-view-two .buttons .adder button{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(100%/3);
+        background-color: transparent;
+        border: none;
+        font-size: var(--font-size);
+    }
+    .add-to-cart{
+        height: 100%;
+        width: 60%;
+        border-radius: var(--border-radius);
+        background-color: var(--orange);
+        border: none;
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-links);
+    }
+
+}
